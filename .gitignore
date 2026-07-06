@@ -1,0 +1,26 @@
+# Secrets — NEVER commit
+.env
+.env.*
+*.key
+secret.key
+
+# Large binaries — the DMG ships as a GitHub Release asset, not in the repo
+*.dmg
+*.app/
+
+# Build outputs / venvs
+dist/
+dist-mac/
+build-mac/
+.venv*/
+venv/
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
