@@ -52,3 +52,6 @@ use that.
 ./build-macos.sh
 ```
 The result is `dist-mac/Open Financial Terminal.app` and `OpenFinancialTerminal.dmg`.
+
+For incremental rebuilds of an existing tree and cutting a GitHub release, see
+[RELEASING.md](../RELEASING.md).
