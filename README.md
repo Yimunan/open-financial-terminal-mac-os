@@ -82,10 +82,10 @@ All 34 modules at a glance — jump to any section below.
 |---|---|---|---|---|---|---|---|
 | [Watchlist](#watchlist) · [Market Board](#market-board) · [Quote](#quote) · [Profile](#profile) · [Chart](#chart) · [Chart Studio](#chart-studio) · [Order Book](#order-book) · [Time & Sales](#time--sales) | [Option Chain](#option-chain) · [Options Surface](#options-surface) | [News](#news) · [Topic News](#topic-news) · [Public Filings](#public-filings) · [New Listings](#new-listings) | [Screener](#screener) · [Factors](#factors) · [Factor Performance](#factor-performance) · [Backtest](#backtest) · [Strategies](#strategies) · [Models](#models) · [Sandbox](#sandbox) | [Portfolio](#portfolio) · [Portfolio Builder](#portfolio-builder) · [Risk Attribution](#risk-attribution) | [Paper Trading](#paper-trading) · [Algo Trading](#algo-trading) · [Market Making](#market-making) | [Macro](#macro) · [FICC](#ficc) | [Assistant](#assistant) · [Agent Workflow](#agent-workflow) · [Research Loop](#research-loop) · [Committees](#committees) · [Map](#map) |
 
-> Screenshots below are captured from the running app. A few data-backed modules (holdings, models,
-> the live equity tape, EDGAR filings) render their **empty state** here because this capture ran on a
-> fresh profile with no positions saved and no brokerage/EDGAR feed attached — each still shows the
-> module's real UI.
+> Screenshots below are captured from the running app with live data — real EDGAR filings, FRED
+> macro series, market bars, a sample holdings book and paper positions, and an LLM-built chart.
+> Two exceptions render their **empty state**: Time & Sales (the equity tape needs a live feed —
+> add Alpaca keys) and Risk Attribution (needs positions with factor coverage).
 
 ### Market data & charts
 
