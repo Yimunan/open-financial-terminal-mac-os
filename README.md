@@ -333,9 +333,13 @@ Filter by edge type (Links / Sends / Data).
   Data** for live equity quotes, NBBO bid/ask, the streaming Time & Sales tape, and Alpaca paper
   trading. Order-book depth ships with a built-in simulator and is pluggable to IBKR / Databento /
   dxFeed.
-- **AI assistant / NL screener / agents** — open **⌘K → Settings** and add your own OpenAI-compatible
-  LLM endpoint + API key. **No key ships in the app.** Example (DeepSeek): base URL
-  `https://api.deepseek.com/v1`, model `deepseek-v4-flash`.
+- **AI assistant / NL screener / agents** — open **⌘K → Settings → Model & provider** and point the
+  terminal at any OpenAI-compatible API. Two equally supported flavors (the chip shows which one is
+  active):
+  - **Local API** — a server on your own machine, no key needed. Example (Ollama): base URL
+    `http://localhost:11434/v1`, model `gemma4:e4b-it-qat` (or any model you've pulled).
+  - **Online API** — a hosted provider, API key required. Example (DeepSeek): base URL
+    `https://api.deepseek.com/v1`, model `deepseek-v4-flash`. **No key ships in the app.**
 - App state (cache, settings, encrypted keys) lives under `~/OpenFinancialTerminal/`. Each install
   generates its own encryption key on first run.
 
